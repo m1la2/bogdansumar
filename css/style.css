@@ -1,0 +1,145 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Reenie+Beanie&display=swap');
+
+body{
+background-color: #405418;
+background-image: url("../assets/bckg_img.jpg");
+background-size: cover;
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    outline: solid white;
+    outline-offset: 4px;
+    outline-width: 2px;
+}
+
+.pitanje {
+    padding: 20px;
+    width: 40%;
+    margin: 30px auto;
+}
+
+.pitanje.tekst {
+    font-size: 20px;
+}
+
+.forma {
+    height: 250px;
+    width: 400px;
+   
+}
+
+
+.tekst {
+    padding: 20px;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+}
+
+h1, .pitanje {
+    font-family: "Prata", serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: "Prata", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 60px;
+    margin-top: -25px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.tekst p {
+    margin-top:20px;
+}
+
+.btn p:first-of-type {
+    margin-top:0px;
+}
+
+.btn {
+    margin: 10px auto 25px auto;
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+    outline: solid white;
+    outline-offset: 3px;
+    outline-width: 1px;
+}
+
+.btn p {
+    color: white;
+    opacity: 100%;
+
+}
+
+label {
+    color: white;
+    font-size: 18px;
+}
+
+.kraj {
+    padding: 20px;
+    color:#405418;
+    text-align: center;
+    font-weight: bolder;
+    width: 30%;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: white;
+    outline: solid white;
+    outline-offset: 4px;
+    outline-width: 2px;
+    
+}
+
+.kraj p {
+    font-family: 'Prata', serif;
+    font-size: 20px;
+}
+
+.tacanOdg {
+    outline: solid green;
+    outline-offset: 4px;
+    outline-width: 2px;
+}
+
+.netacanOdg {
+    outline: solid red;
+    outline-offset: 4px;
+    outline-width: 2px;
+}
+
+.krajK {
+    visibility: hidden;
+}
